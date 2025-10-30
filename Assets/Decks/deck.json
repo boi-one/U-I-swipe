@@ -1,0 +1,44 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        }
+      ],
+      "description": "lol",
+      "profile": "/2.png",
+      "name": "Default Johnson"
+    }  
+]
+}
