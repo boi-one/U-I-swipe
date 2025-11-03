@@ -43,14 +43,14 @@ public class CardObject
 
 public class CardManager : MonoBehaviour
 {
-    public static CardManager cardManager;
+    public static CardManager instance;
     public CardObject card = new CardObject();
     private Deck cardDeck = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        cardManager = this;
+        instance = this;
 
         LoadJson();
         SetCard();
@@ -85,6 +85,7 @@ public class CardManager : MonoBehaviour
 
     public void SetCard()
     {
+        Debug.Log("cards available " + cardDeck.cards.Length);
         int index = UnityEngine.Random.Range(0, cardDeck.cards.Length);
         SetCardElements(cardDeck.cards[index]);
         List<Card> temp = cardDeck.cards.ToList();
