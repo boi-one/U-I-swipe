@@ -10,7 +10,10 @@ public class Swipe : MonoBehaviour
     bool dragging = false;
     SpriteRenderer cardSpriteRenderer;
     Camera mainCamera;
+
     float distanceFromCenter = 0f;
+    float totalDistance = 0f;
+    float side;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,7 +28,6 @@ public class Swipe : MonoBehaviour
     {
         mouseScreenPosition = Input.mousePosition;
         float camToCard = Mathf.Abs(mainCamera.transform.position.z - transform.position.z); 
-        //mouseWorldPosition = mainCamera.ScreenToWorldPoint(new Vector3(mouseScreenPosition.x, mouseScreenPosition.y, camToCard));
         mouseWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(mouseScreenPosition.x, mouseScreenPosition.y, Camera.main.nearClipPlane));
         mouseWorldPosition = new Vector3(mouseWorldPosition.x, transform.position.y, mouseWorldPosition.z);
         distanceFromCenter = (transform.position - basePosition).magnitude;
@@ -37,7 +39,6 @@ public class Swipe : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("click");
             if (GetComponent<BoxCollider2D>().OverlapPoint(mouseWorldPosition))
             {
                 dragging = true;
@@ -50,21 +51,21 @@ public class Swipe : MonoBehaviour
         if (dragging && Input.GetMouseButton(0))
         {
             transform.position = mouseWorldPosition + offset;
-
-
-            float side = (transform.position.x - basePosition.x) >= 0f ? -1f : 1f;
-            Debug.DrawLine(transform.position, basePosition, Color.red);
+            side = (transform.position.x - basePosition.x) >= 0f ? -1f : 1f;
             float rot = side * (distanceFromCenter * 10);
-            Debug.Log("r " + rot);
             transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, rot));
 
-            if (mouseWorldPosition.y > basePosition.y)
+            for(int i = 0; i < CardManager.instance.card.impact.Length; i++)
             {
-                //Vector2 dir = (transform.position - basePosition);
-                //float angleDeg = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-                
-            }
+                float scaledValue;
 
+                SpriteRenderer[] impact = CardManager.instance.card.impact;
+                Card cc = CardManager.instance.currentCard;
+
+                scaledValue = (side >= 0) ? Mathf.Lerp(0f, cc.parameters[i].rightValueMin, clamp) : Mathf.Lerp(0f, cc.parameters[i].leftValueMin, clamp);
+                
+                impact[i].transform.localScale = Vector2.one * Mathf.Abs(scaledValue) * 0.01f;
+            }
         }
 
         if (Input.GetMouseButtonUp(0))
@@ -72,11 +73,21 @@ public class Swipe : MonoBehaviour
             dragging = false;
             transform.position = basePosition;
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+            
+            foreach(SpriteRenderer s in CardManager.instance.card.impact)
+                s.transform.localScale = new Vector2(0f, 0f);
 
             if (invertedClamp < 0.1f)
             {
-                Debug.Log("Bye");
                 CardManager.instance.SetCard();
+                for(int i = 0; i < CardManager.instance.card.paramaterValues.Length; i++)
+                {
+                    int value = (side >= 0) ? CardManager.instance.currentCard.parameters[i].rightValueMin : CardManager.instance.currentCard.parameters[i].leftValueMin;
+                    CardManager.instance.card.paramaterValues[i] += value;
+
+                    Debug.Log("1 - 4: " + CardManager.instance.card.paramaterValues[i]);
+                    if (CardManager.instance.card.paramaterValues[i] <= 0) Debug.Log("GAME OVER!!!!!!!!!!!!!!!!!!");
+                }
             }
         }
     }

@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -36,6 +35,8 @@ public class Deck
 public class CardObject
 {
     public SpriteRenderer[] parameters = new SpriteRenderer[4];
+    public int[] paramaterValues = new int[4] { 5, 5, 5, 5 };
+    public SpriteRenderer[] impact = new SpriteRenderer[4];
     public TMP_Text Stelling;
     public SpriteRenderer profile;
     public TMP_Text Name;
@@ -46,6 +47,7 @@ public class CardManager : MonoBehaviour
     public static CardManager instance;
     public CardObject card = new CardObject();
     private Deck cardDeck = null;
+    public Card currentCard = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -87,7 +89,9 @@ public class CardManager : MonoBehaviour
     {
         Debug.Log("cards available " + cardDeck.cards.Length);
         int index = UnityEngine.Random.Range(0, cardDeck.cards.Length);
-        SetCardElements(cardDeck.cards[index]);
+        if (cardDeck.cards.Length > 0) currentCard = cardDeck.cards[index];
+        else Debug.Log("no cards available in deck");
+        SetCardElements(currentCard);
         List<Card> temp = cardDeck.cards.ToList();
         temp.RemoveAt(index);
         cardDeck.cards = temp.ToArray();

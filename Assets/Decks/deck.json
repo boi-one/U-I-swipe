@@ -6,9 +6,9 @@
         {
           "parameterTitleData": "",
           "parameterIconData": "/location.png",
-          "leftValueMin": 0,
+          "leftValueMin": 5,
           "leftValueMax": null,
-          "rightValueMin": 0,
+          "rightValueMin": -2,
           "rightValueMax": null
         },
         {
@@ -22,7 +22,7 @@
         {
           "parameterTitleData": "",
           "parameterIconData": "/location.png",
-          "leftValueMin": 0,
+          "leftValueMin": 3,
           "leftValueMax": null,
           "rightValueMin": 0,
           "rightValueMax": null
@@ -30,9 +30,9 @@
         {
           "parameterTitleData": "",
           "parameterIconData": "/location.png",
-          "leftValueMin": 0,
+          "leftValueMin": 1,
           "leftValueMax": null,
-          "rightValueMin": 0,
+          "rightValueMin": -5,
           "rightValueMax": null
         }
       ],
@@ -41,484 +41,44 @@
       "name": "Big John"
     },
     {
-      "id": 1,
+      "id": 2,
       "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 5,
+          "leftValueMax": null,
+          "rightValueMin": -3,
+          "rightValueMax": null
+        },
         {
           "parameterTitleData": "",
           "parameterIconData": "/location.png",
           "leftValueMin": 1,
           "leftValueMax": null,
-          "rightValueMin": 4,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
           "rightValueMin": 0,
           "rightValueMax": null
         },
         {
           "parameterTitleData": "",
           "parameterIconData": "/location.png",
-          "leftValueMin": 0,
+          "leftValueMin": 3,
           "leftValueMax": null,
-          "rightValueMin": 0,
+          "rightValueMin": -2,
           "rightValueMax": null
         },
         {
           "parameterTitleData": "",
           "parameterIconData": "/location.png",
-          "leftValueMin": 0,
+          "leftValueMin": 2,
           "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "stelling of descriptie",
-      "profile": "/2.png",
-      "name": "koningStraat"
-    },
-    {
-      "id": 2,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 5,
-          "leftValueMax": null,
-          "rightValueMin": 3,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 2,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "kroon en bril",
-      "profile": "/5.png",
-      "name": "swag"
-    },
-    {
-      "id": 2,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 5,
-          "leftValueMax": null,
-          "rightValueMin": 3,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 2,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
+          "rightValueMin": -5,
           "rightValueMax": null
         }
       ],
       "description": "BOMBOCLAT",
       "profile": "/5.png",
       "name": "BIG MONEY"
-    },
-    {
-      "id": 0,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "de ondernemer in de kalverstraat",
-      "profile": "/1.png",
-      "name": "Big John"
-    },
-    {
-      "id": 1,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 1,
-          "leftValueMax": null,
-          "rightValueMin": 4,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "stelling of descriptie",
-      "profile": "/2.png",
-      "name": "koningStraat"
-    },
-    {
-      "id": 2,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 5,
-          "leftValueMax": null,
-          "rightValueMin": 3,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 2,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "kroon en bril",
-      "profile": "/5.png",
-      "name": "swag"
-    },
-    {
-      "id": 0,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "de ondernemer in de kalverstraat",
-      "profile": "/1.png",
-      "name": "Big John"
-    },
-    {
-      "id": 1,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 1,
-          "leftValueMax": null,
-          "rightValueMin": 4,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "stelling of descriptie",
-      "profile": "/2.png",
-      "name": "koningStraat"
-    },
-    {
-      "id": 2,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 5,
-          "leftValueMax": null,
-          "rightValueMin": 3,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 2,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "kroon en bril",
-      "profile": "/5.png",
-      "name": "swag"
-    },
-    {
-      "id": 0,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "de ondernemer in de kalverstraat",
-      "profile": "/1.png",
-      "name": "Big John"
-    },
-    {
-      "id": 1,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 1,
-          "leftValueMax": null,
-          "rightValueMin": 4,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "stelling of descriptie",
-      "profile": "/2.png",
-      "name": "koningStraat"
-    },
-    {
-      "id": 2,
-      "parameters": [
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 5,
-          "leftValueMax": null,
-          "rightValueMin": 3,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 2,
-          "rightValueMax": null
-        },
-        {
-          "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 0,
-          "leftValueMax": null,
-          "rightValueMin": 0,
-          "rightValueMax": null
-        }
-      ],
-      "description": "kroon en bril",
-      "profile": "/5.png",
-      "name": "swag"
     }
-  ]
+    ]
 }
