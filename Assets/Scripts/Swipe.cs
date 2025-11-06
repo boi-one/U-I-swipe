@@ -21,13 +21,14 @@ public class Swipe : MonoBehaviour
         mainCamera = Camera.main;
         cardSpriteRenderer = GetComponent<SpriteRenderer>();
         basePosition = transform.position;
+        SetParameterBar();
     }
 
     // Update is called once per frame
     void Update()
     {
         mouseScreenPosition = Input.mousePosition;
-        float camToCard = Mathf.Abs(mainCamera.transform.position.z - transform.position.z); 
+        float camToCard = Mathf.Abs(mainCamera.transform.position.z - transform.position.z);
         mouseWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(mouseScreenPosition.x, mouseScreenPosition.y, Camera.main.nearClipPlane));
         mouseWorldPosition = new Vector3(mouseWorldPosition.x, transform.position.y, mouseWorldPosition.z);
         distanceFromCenter = (transform.position - basePosition).magnitude;
@@ -55,7 +56,7 @@ public class Swipe : MonoBehaviour
             float rot = side * (distanceFromCenter * 10);
             transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, rot));
 
-            for(int i = 0; i < CardManager.instance.card.impact.Length; i++)
+            for (int i = 0; i < CardManager.instance.card.impact.Length; i++)
             {
                 float scaledValue;
 
@@ -63,8 +64,8 @@ public class Swipe : MonoBehaviour
                 Card cc = CardManager.instance.currentCard;
 
                 scaledValue = (side >= 0) ? Mathf.Lerp(0f, cc.parameters[i].rightValueMin, clamp) : Mathf.Lerp(0f, cc.parameters[i].leftValueMin, clamp);
-                
-                impact[i].transform.localScale = Vector2.one * Mathf.Abs(scaledValue) * 0.01f;
+
+                impact[i].transform.localScale = Vector2.one * Mathf.Abs(scaledValue) * 0.04f;
             }
         }
 
@@ -73,24 +74,37 @@ public class Swipe : MonoBehaviour
             dragging = false;
             transform.position = basePosition;
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-            
-            foreach(SpriteRenderer s in CardManager.instance.card.impact)
+
+            foreach (SpriteRenderer s in CardManager.instance.card.impact)
                 s.transform.localScale = new Vector2(0f, 0f);
 
             if (invertedClamp < 0.1f)
             {
-                CardManager.instance.SetCard();
-                for(int i = 0; i < CardManager.instance.card.paramaterValues.Length; i++)
+                if (CardManager.instance.cardDeck.cards.Length >= 1)
+                    CardManager.instance.SetCard();
+                else Debug.Log("win!");
+                for (int i = 0; i < CardManager.instance.card.paramaterValues.Length; i++)
                 {
                     int value = (side >= 0) ? CardManager.instance.currentCard.parameters[i].rightValueMin : CardManager.instance.currentCard.parameters[i].leftValueMin;
                     CardManager.instance.card.paramaterValues[i] += value;
 
                     Debug.Log("1 - 4: " + CardManager.instance.card.paramaterValues[i]);
-                    if (CardManager.instance.card.paramaterValues[i] <= 0) Debug.Log("GAME OVER!!!!!!!!!!!!!!!!!!");
+                    if (CardManager.instance.card.paramaterValues[i] <= 0)
+                    {
+                        Debug.Log("GAME OVER!!!!!!!!!!!!!!!!!!");
+                        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+                    }
                 }
+                SetParameterBar();
             }
         }
     }
 
-
+    void SetParameterBar()
+    {
+        for (int i = 0; i < CardManager.instance.card.parameterValueBar.Length; i++)
+        {
+            CardManager.instance.card.parameterValueBar[i].SetValue(CardManager.instance.card.paramaterValues[i]);
+        }
+    }
 }
