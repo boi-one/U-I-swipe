@@ -37,6 +37,7 @@ public class CardObject
     public SpriteRenderer[] parameters = new SpriteRenderer[4];
     public int[] paramaterValues = new int[4] { 5, 5, 5, 5 };
     public SpriteRenderer[] impact = new SpriteRenderer[4];
+    public Bar[] parameterValueBar = new Bar[4];
     public TMP_Text Stelling;
     public SpriteRenderer profile;
     public TMP_Text Name;
@@ -46,7 +47,7 @@ public class CardManager : MonoBehaviour
 {
     public static CardManager instance;
     public CardObject card = new CardObject();
-    private Deck cardDeck = null;
+    public Deck cardDeck = null;
     public Card currentCard = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

@@ -5,15 +5,15 @@
       "parameters": [
         {
           "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 5,
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 2,
           "leftValueMax": null,
-          "rightValueMin": -2,
+          "rightValueMin": -1,
           "rightValueMax": null
         },
         {
           "parameterTitleData": "",
-          "parameterIconData": "/location.png",
+          "parameterIconData": "/workload.png",
           "leftValueMin": 0,
           "leftValueMax": null,
           "rightValueMin": 0,
@@ -21,39 +21,159 @@
         },
         {
           "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 3,
+          "parameterIconData": "/door.png",
+          "leftValueMin": -1,
           "leftValueMax": null,
-          "rightValueMin": 0,
+          "rightValueMin": 2,
           "rightValueMax": null
         },
         {
           "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 1,
+          "parameterIconData": "/access.png",
+          "leftValueMin": 0,
           "leftValueMax": null,
-          "rightValueMin": -5,
+          "rightValueMin": 1,
           "rightValueMax": null
         }
       ],
-      "description": "de ondernemer in de kalverstraat",
-      "profile": "/1.png",
-      "name": "Big John"
+      "description": "De website moet een hoog contrast hebben.",
+      "profile": "/a.png",
+      "name": "Vector"
+    },
+    {
+      "id": 1,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": -1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        }
+      ],
+      "description": "De knoppen moeten gedrag vertonen.",
+      "profile": "/e.png",
+      "name": "Hendrick"
     },
     {
       "id": 2,
       "parameters": [
         {
           "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 5,
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
           "leftValueMax": null,
-          "rightValueMin": -3,
+          "rightValueMin": 0,
           "rightValueMax": null
         },
         {
           "parameterTitleData": "",
-          "parameterIconData": "/location.png",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": -1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -2,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Er moet een navigatiebalk aanwezig zijn.",
+      "profile": "/f.png",
+      "name": "Willem"
+    },
+    {
+      "id": 3,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 2,
+          "leftValueMax": null,
+          "rightValueMin": -2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Er moet een optie zijn voor light of dark modus.",
+      "profile": "/d.png",
+      "name": "Brian"
+    },
+    {
+      "id": 4,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": -1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
           "leftValueMin": 1,
           "leftValueMax": null,
           "rightValueMin": 0,
@@ -61,24 +181,744 @@
         },
         {
           "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 3,
+          "parameterIconData": "/door.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        }
+      ],
+      "description": "De lettergrootte moet aanpasbaar zijn.",
+      "profile": "/f.png",
+      "name": "Rajesh"
+    },
+    {
+      "id": 5,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": -2,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": -2,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Er moeten meerdere talen beschikbaar zijn.",
+      "profile": "/d.png",
+      "name": "Jacob"
+    },
+    {
+      "id": 6,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Het taalgebruik moet inclusief zijn.",
+      "profile": "/e.png",
+      "name": "keon"
+    },
+    {
+      "id": 7,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Er moet een vast ontwerp ­systeem of stijlgids zijn voor herbruikbare elementen.",
+      "profile": "/b.png",
+      "name": "Max"
+    },
+    {
+      "id": 8,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": -1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        }
+      ],
+      "description": "De website moet animaties en overgangen hebben.",
+      "profile": "/c.png",
+      "name": "Timmy"
+    },
+    {
+      "id": 9,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 1,
           "leftValueMax": null,
           "rightValueMin": -2,
           "rightValueMax": null
         },
         {
           "parameterTitleData": "",
-          "parameterIconData": "/location.png",
-          "leftValueMin": 2,
+          "parameterIconData": "/door.png",
+          "leftValueMin": -1,
           "leftValueMax": null,
-          "rightValueMin": -5,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
           "rightValueMax": null
         }
       ],
-      "description": "BOMBOCLAT",
-      "profile": "/5.png",
-      "name": "BIG MONEY"
+      "description": "Het ontwerp van de website moet aanpasbaar zijn voor verschillende resoluties.",
+      "profile": "/f.png",
+      "name": "Gert"
+    },
+    {
+      "id": 10,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -2,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        }
+      ],
+      "description": "De navigatie moet consistent zijn op elke pagina.",
+      "profile": "/c.png",
+      "name": "Jo"
+    },
+    {
+      "id": 11,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": -1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": -2,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        }
+      ],
+      "description": "De website moet toetsenbord navigatie ondersteunen.",
+      "profile": "/a.png",
+      "name": "Flip"
+    },
+    {
+      "id": 12,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        }
+      ],
+      "description": "De website moet snel laden.",
+      "profile": "/d.png",
+      "name": "Marc met een k"
+    },
+    {
+      "id": 13,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": -1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        }
+      ],
+      "description": "De foutpagina’s (bijv. 404) moeten een style hebben (kleuren etc).",
+      "profile": "/a.png",
+      "name": "Error"
+    },
+    {
+      "id": 14,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": -2,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Moet de website visuele balans hebben tussen tekst, beelden en witruimte?",
+      "profile": "/d.png",
+      "name": "Harry"
+    },
+    {
+      "id": 15,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": -2,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": -1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Moet de website afbeeldingen en video’s hebben?",
+      "profile": "/e.png",
+      "name": "Idiot"
+    },
+    {
+      "id": 16,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Moet de layout consistent zijn op elke pagina?",
+      "profile": "/f.png",
+      "name": "kees"
+    },
+    {
+      "id": 17,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": -2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Moet de website grafische elementen vermijden die de laadtijd vertragen of afleiden?",
+      "profile": "/d.png",
+      "name": "henny"
+    },
+    {
+      "id": 18,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Moet de website gebruikmaken van een modulair ontwerp­systeem (design tokens, variabelen)? (INFO)",
+      "profile": "/d.png",
+      "name": "Flippy"
+    },
+    {
+      "id": 19,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Moet de website een duidelijke structuur in de code en het ontwerp hebben voor toekomstige aanpassingen?",
+      "profile": "/e.png",
+      "name": "cyntia"
+    },
+    {
+      "id": 20,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": -1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": -2,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Moet de website voldoen aan WCAG-richtlijnen?",
+      "profile": "/c.png",
+      "name": "werf"
+    },
+    {
+      "id": 21,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Moet de website consistent gedrag vertonen bij vergelijkbare acties?",
+      "profile": "/d.png",
+      "name": "Hester"
+    },
+    {
+      "id": 22,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/eye.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/workload.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": -1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/door.png",
+          "leftValueMin": -1,
+          "leftValueMax": null,
+          "rightValueMin": 1,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/access.png",
+          "leftValueMin": -2,
+          "leftValueMax": null,
+          "rightValueMin": 2,
+          "rightValueMax": null
+        }
+      ],
+      "description": "Moet de website automatische aanpassing bieden aan taal of locatie van de gebruiker?",
+      "profile": "/c.png",
+      "name": "Wessly"
     }
-    ]
+  ]
 }
