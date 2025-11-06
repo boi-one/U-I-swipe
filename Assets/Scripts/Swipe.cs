@@ -82,17 +82,16 @@ public class Swipe : MonoBehaviour
             {
                 if (CardManager.instance.cardDeck.cards.Length >= 1)
                     CardManager.instance.SetCard();
-                else Debug.Log("win!");
+                else UnityEngine.SceneManagement.SceneManager.LoadScene("Win");
                 for (int i = 0; i < CardManager.instance.card.paramaterValues.Length; i++)
                 {
                     int value = (side >= 0) ? CardManager.instance.currentCard.parameters[i].rightValueMin : CardManager.instance.currentCard.parameters[i].leftValueMin;
                     CardManager.instance.card.paramaterValues[i] += value;
 
-                    Debug.Log("1 - 4: " + CardManager.instance.card.paramaterValues[i]);
                     if (CardManager.instance.card.paramaterValues[i] <= 0)
                     {
                         Debug.Log("GAME OVER!!!!!!!!!!!!!!!!!!");
-                        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+                        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
                     }
                 }
                 SetParameterBar();
