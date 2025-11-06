@@ -1,0 +1,84 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 5,
+          "leftValueMax": null,
+          "rightValueMin": -2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 0,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 3,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": -5,
+          "rightValueMax": null
+        }
+      ],
+      "description": "de ondernemer in de kalverstraat",
+      "profile": "/1.png",
+      "name": "Big John"
+    },
+    {
+      "id": 2,
+      "parameters": [
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 5,
+          "leftValueMax": null,
+          "rightValueMin": -3,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 1,
+          "leftValueMax": null,
+          "rightValueMin": 0,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 3,
+          "leftValueMax": null,
+          "rightValueMin": -2,
+          "rightValueMax": null
+        },
+        {
+          "parameterTitleData": "",
+          "parameterIconData": "/location.png",
+          "leftValueMin": 2,
+          "leftValueMax": null,
+          "rightValueMin": -5,
+          "rightValueMax": null
+        }
+      ],
+      "description": "BOMBOCLAT",
+      "profile": "/5.png",
+      "name": "BIG MONEY"
+    }
+    ]
+}
