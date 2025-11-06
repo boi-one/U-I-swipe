@@ -9,7 +9,12 @@ public class MainMenu : MonoBehaviour
     }
     public void Speel()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("GameOver");
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 
     public void Quit()
