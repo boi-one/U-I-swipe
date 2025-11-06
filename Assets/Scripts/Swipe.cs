@@ -86,7 +86,11 @@ public class Swipe : MonoBehaviour
                     CardManager.instance.card.paramaterValues[i] += value;
 
                     Debug.Log("1 - 4: " + CardManager.instance.card.paramaterValues[i]);
-                    if (CardManager.instance.card.paramaterValues[i] <= 0) Debug.Log("GAME OVER!!!!!!!!!!!!!!!!!!");
+                    if (CardManager.instance.card.paramaterValues[i] <= 0 || Input.GetKeyDown(KeyCode.K))
+                    {
+                        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+                        Debug.Log("GAME OVER!!!!!!!!!!!!!!!!!!");
+                    }
                 }
             }
         }
