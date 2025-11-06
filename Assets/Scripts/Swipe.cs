@@ -62,10 +62,12 @@ public class Swipe : MonoBehaviour
 
                 SpriteRenderer[] impact = CardManager.instance.card.impact;
                 Card cc = CardManager.instance.currentCard;
-
-                scaledValue = (side >= 0) ? Mathf.Lerp(0f, cc.parameters[i].rightValueMin, clamp) : Mathf.Lerp(0f, cc.parameters[i].leftValueMin, clamp);
-
-                impact[i].transform.localScale = Vector2.one * Mathf.Abs(scaledValue) * 0.04f;
+                
+                if(!Settings.reference.detailedEffect)
+                {
+                    scaledValue = (side >= 0) ? Mathf.Lerp(0f, cc.parameters[i].rightValueMin, clamp) : Mathf.Lerp(0f, cc.parameters[i].leftValueMin, clamp);
+                    impact[i].transform.localScale = Vector2.one * Mathf.Abs(scaledValue) * 0.04f;
+                }
             }
         }
 
@@ -89,8 +91,7 @@ public class Swipe : MonoBehaviour
                     CardManager.instance.card.paramaterValues[i] += value;
 
                     if (CardManager.instance.card.paramaterValues[i] <= 0)
-                    {
-                        Debug.Log("GAME OVER!!!!!!!!!!!!!!!!!!");
+                    { 
                         UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
                     }
                 }

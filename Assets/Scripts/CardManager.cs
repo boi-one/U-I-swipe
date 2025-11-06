@@ -37,6 +37,7 @@ public class CardObject
     public SpriteRenderer[] parameters = new SpriteRenderer[4];
     public int[] paramaterValues = new int[4] { 5, 5, 5, 5 };
     public SpriteRenderer[] impact = new SpriteRenderer[4];
+    public TMP_Text[] detailedImpact = new TMP_Text[4]; //TODO: ALS het positief is maak het + als de waarde negatief is maak het -, als je niks doet maak het ' '. voeg ook een swipe sound to als je swiped!
     public Bar[] parameterValueBar = new Bar[4];
     public TMP_Text Stelling;
     public SpriteRenderer profile;

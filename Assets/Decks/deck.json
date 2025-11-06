@@ -46,7 +46,7 @@
         {
           "parameterTitleData": "",
           "parameterIconData": "/eye.png",
-          "leftValueMin": 1,
+          "leftValueMin": -1,
           "leftValueMax": null,
           "rightValueMin": 1,
           "rightValueMax": null
@@ -62,9 +62,9 @@
         {
           "parameterTitleData": "",
           "parameterIconData": "/door.png",
-          "leftValueMin": -1,
+          "leftValueMin": 0,
           "leftValueMax": null,
-          "rightValueMin": 2,
+          "rightValueMin": 0,
           "rightValueMax": null
         },
         {
@@ -78,7 +78,7 @@
       ],
       "description": "De knoppen moeten gedrag vertonen.",
       "profile": "/e.png",
-      "name": "Hendrick"
+      "name": "William"
     },
     {
       "id": 2,
@@ -118,7 +118,7 @@
       ],
       "description": "Er moet een navigatiebalk aanwezig zijn.",
       "profile": "/f.png",
-      "name": "Willem"
+      "name": "Rajesh"
     },
     {
       "id": 3,
@@ -238,7 +238,7 @@
       ],
       "description": "Er moeten meerdere talen beschikbaar zijn.",
       "profile": "/d.png",
-      "name": "Jacob"
+      "name": "Brian"
     },
     {
       "id": 6,
@@ -278,7 +278,7 @@
       ],
       "description": "Het taalgebruik moet inclusief zijn.",
       "profile": "/e.png",
-      "name": "keon"
+      "name": "William"
     },
     {
       "id": 7,
@@ -318,7 +318,7 @@
       ],
       "description": "Er moet een vast ontwerp ­systeem of stijlgids zijn voor herbruikbare elementen.",
       "profile": "/b.png",
-      "name": "Max"
+      "name": "Sjaak"
     },
     {
       "id": 8,
@@ -366,7 +366,7 @@
         {
           "parameterTitleData": "",
           "parameterIconData": "/eye.png",
-          "leftValueMin": -1,
+          "leftValueMin": -2,
           "leftValueMax": null,
           "rightValueMin": 1,
           "rightValueMax": null
@@ -398,7 +398,7 @@
       ],
       "description": "Het ontwerp van de website moet aanpasbaar zijn voor verschillende resoluties.",
       "profile": "/f.png",
-      "name": "Gert"
+      "name": "Rajesh"
     },
     {
       "id": 10,
@@ -438,7 +438,7 @@
       ],
       "description": "De navigatie moet consistent zijn op elke pagina.",
       "profile": "/c.png",
-      "name": "Jo"
+      "name": "Timmy"
     },
     {
       "id": 11,
@@ -478,7 +478,7 @@
       ],
       "description": "De website moet toetsenbord navigatie ondersteunen.",
       "profile": "/a.png",
-      "name": "Flip"
+      "name": "Vector"
     },
     {
       "id": 12,
@@ -496,7 +496,7 @@
           "parameterIconData": "/workload.png",
           "leftValueMin": 0,
           "leftValueMax": null,
-          "rightValueMin": 0,
+          "rightValueMin": -1,
           "rightValueMax": null
         },
         {
@@ -518,7 +518,7 @@
       ],
       "description": "De website moet snel laden.",
       "profile": "/d.png",
-      "name": "Marc met een k"
+      "name": "Brian"
     },
     {
       "id": 13,
@@ -558,7 +558,7 @@
       ],
       "description": "De foutpagina’s (bijv. 404) moeten een style hebben (kleuren etc).",
       "profile": "/a.png",
-      "name": "Error"
+      "name": "Vector "
     },
     {
       "id": 14,
@@ -598,7 +598,7 @@
       ],
       "description": "Moet de website visuele balans hebben tussen tekst, beelden en witruimte?",
       "profile": "/d.png",
-      "name": "Harry"
+      "name": "Brian"
     },
     {
       "id": 15,
@@ -638,7 +638,7 @@
       ],
       "description": "Moet de website afbeeldingen en video’s hebben?",
       "profile": "/e.png",
-      "name": "Idiot"
+      "name": "William"
     },
     {
       "id": 16,
@@ -678,7 +678,7 @@
       ],
       "description": "Moet de layout consistent zijn op elke pagina?",
       "profile": "/f.png",
-      "name": "kees"
+      "name": "Rajesh"
     },
     {
       "id": 17,
@@ -718,7 +718,7 @@
       ],
       "description": "Moet de website grafische elementen vermijden die de laadtijd vertragen of afleiden?",
       "profile": "/d.png",
-      "name": "henny"
+      "name": "Brian"
     },
     {
       "id": 18,
@@ -756,9 +756,9 @@
           "rightValueMax": null
         }
       ],
-      "description": "Moet de website gebruikmaken van een modulair ontwerp­systeem (design tokens, variabelen)? (INFO)",
+      "description": "Moet de website gebruikmaken van een modulair ontwerp­systeem (design tokens, variabelen)?",
       "profile": "/d.png",
-      "name": "Flippy"
+      "name": "Brian"
     },
     {
       "id": 19,
@@ -798,7 +798,7 @@
       ],
       "description": "Moet de website een duidelijke structuur in de code en het ontwerp hebben voor toekomstige aanpassingen?",
       "profile": "/e.png",
-      "name": "cyntia"
+      "name": "William"
     },
     {
       "id": 20,
@@ -878,7 +878,7 @@
       ],
       "description": "Moet de website consistent gedrag vertonen bij vergelijkbare acties?",
       "profile": "/d.png",
-      "name": "Hester"
+      "name": "Brian"
     },
     {
       "id": 22,
@@ -918,7 +918,7 @@
       ],
       "description": "Moet de website automatische aanpassing bieden aan taal of locatie van de gebruiker?",
       "profile": "/c.png",
-      "name": "Wessly"
+      "name": "Timmy"
     }
   ]
 }
