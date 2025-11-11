@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class Swipe : MonoBehaviour
@@ -68,6 +69,14 @@ public class Swipe : MonoBehaviour
                     scaledValue = (side >= 0) ? Mathf.Lerp(0f, cc.parameters[i].rightValueMin, clamp) : Mathf.Lerp(0f, cc.parameters[i].leftValueMin, clamp);
                     impact[i].transform.localScale = Vector2.one * Mathf.Abs(scaledValue) * 0.04f;
                 }
+                else
+                {
+                    TMP_Text[] detailedImpact = CardManager.instance.card.detailedImpact;
+                    scaledValue = (side >= 0) ? cc.parameters[i].rightValueMin : cc.parameters[i].leftValueMin;
+                    if (scaledValue > 0) detailedImpact[i].text = "+";
+                    else if (scaledValue < 0) detailedImpact[i].text = "-";
+                    else detailedImpact[i].text = " ";
+                }
             }
         }
 
@@ -79,6 +88,8 @@ public class Swipe : MonoBehaviour
 
             foreach (SpriteRenderer s in CardManager.instance.card.impact)
                 s.transform.localScale = new Vector2(0f, 0f);
+            foreach (TMP_Text t in CardManager.instance.card.detailedImpact)
+                t.text = " ";
 
             if (invertedClamp < 0.1f)
             {
@@ -96,6 +107,7 @@ public class Swipe : MonoBehaviour
                     }
                 }
                 SetParameterBar();
+                AudioManager.instance.PlaySfx();
             }
         }
     }
